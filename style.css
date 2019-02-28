@@ -1,0 +1,266 @@
+@font-face {
+    font-family: 'tengwar';
+    src: url('https://jocelyn-florance.github.io/-html-Integration-finale-Part-2/asset/tengwar_annatar/tngan.ttf');
+    src: url('https://jocelyn-florance.github.io/-html-Integration-finale-Part-2/asset/tengwar_annatar/tnganb.ttf');
+    src: url('https://jocelyn-florance.github.io/-html-Integration-finale-Part-2/asset/tengwar_annatar/tnganbi.ttf');
+    src: url('https://jocelyn-florance.github.io/-html-Integration-finale-Part-2/asset/tengwar_annatar/tngani.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pete';
+    src: url('https://jocelyn-florance.github.io/-html-Integration-finale-Part-2/asset/pete-klassen_aniron/anicb___.ttf');
+    src: url('https://jocelyn-florance.github.io/-html-Integration-finale-Part-2/asset/pete-klassen_aniron/anicm___.ttf');
+    src: url('https://jocelyn-florance.github.io/-html-Integration-finale-Part-2/asset/pete-klassen_aniron/anicb___.ttf');
+    src: url('https://jocelyn-florance.github.io/-html-Integration-finale-Part-2/asset/pete-klassen_aniron/anicm___.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'nancy';
+    src: url('https://jocelyn-florance.github.io/-html-Integration-finale-Part-2/asset/nancy-lorenz_party-business/partybusiness.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+nav {  font-family : "pete", Helvetica, Arial, sans-serif;}
+li { list-style: none ; }
+a { text-decoration: #ff6649;}
+a:hover { text-decoration: none ;}
+hr { margin: 0px;}
+.afooter { color: white; font-size: 18px;}
+
+.section1 { background-image: url('https://jocelyn-florance.github.io/-html-Integration-finale-Part-2/asset/bg_light.png'); background-repeat: repeat; font-family: pete, Helvetica, Arial, sans-serif;}
+.section1h2 { font-size: 25px; font-family: pete, Helvetica, Arial, sans-serif; }
+.section3 { font-family: pete, Helvetica, Arial, sans-serif; }
+.section1card { background-color: black}
+
+.section1small { color: lightyellow}
+.sectionfontsize { font-size: 17px; font-family: pete, Helvetica, Arial, sans-serif;}
+.sectionfontsizeh2 { font-size: 17px; padding: 20px;}
+.sectionfontsizep { font-size: 15px; margin-top: 5px; padding: 20px;}
+.sectionbutton { margin-bottom: 10px; color: orange; background-color: white}
+.section2img { height: 50%; width: 50%; margin-top: 50px; margin-left: 70px;}
+
+.sectionbesthunter { color: white; background-image: url('https://jocelyn-florance.github.io/-html-Integration-finale-Part-2/asset/bg_light.png'); background-repeat: repeat; font-family: pete, Helvetica, Arial, sans-serif;}
+.sectionbesthunterh2 { padding: 22px; margin-left: 15px; color: black}
+.sectionbesthunterh5 { color: orange; font-size: 45px;}
+.sectionbesthunterp1 { color: black}
+.sectionbesthunterp2 { border-radius: 5px; background-color: black; color: orange; width: 120px; margin: 15px; padding: 8px}
+
+.sectionabout { padding:30px; color: white; background-image: url('https://jocelyn-florance.github.io/-html-Integration-finale-Part-2/asset/bg_dark.png'); background-repeat: repeat; font-family: pete, Helvetica, Arial, sans-serif;}
+.sectionabouttitre { background-color: orange}
+.sectionaboutbody { background-color: antiquewhite}
+.sectionaboutp1 { color: black}
+.sectionaboutth { font-size: 30px}
+.sectionboutimg { height: 90%; width: 90% }
+
+.sectionjoin { padding:30px; color: white; background-image: url('https://jocelyn-florance.github.io/-html-Integration-finale-Part-2/asset/bg_light.png'); background-repeat: repeat; font-family: pete, Helvetica, Arial, sans-serif;}
+.sectionjoinimg1 { height: 70%; width: 70%}
+.sectionjoinorange { color: orange}
+
+.sectioncontact { padding:30px; color: white; background-image: url('https://jocelyn-florance.github.io/-html-Integration-finale-Part-2/asset/bg_dark.png'); background-repeat: repeat; font-family: pete, Helvetica, Arial, sans-serif; }
+.sectioncontactimg { height: 90%; width: 90%}
+
+.sectionfootera a  { color: white; font-size: 14px;}
+
+
+.section2font { color: white; background-image: url('https://jocelyn-florance.github.io/-html-Integration-finale-Part-2/asset/bg_dark.png'); background-repeat: repeat;}
+
+.textdecorationred { text-decoration-color: red }
+.red { color: red}
+.carouselh1 { font-size: 45px; font-family: nancy, Helvetica, Arial, sans-serif; position: absolute; padding-top: 80px; padding-left: 170px; color: white }
+.carouselImage { height: 250px; width: 100%; }
+.gandalfrespon { height: 100%; width: 100%; }
+.ligne { width: 100%; height: 2px; background-color: orange; border: 6px;}
+.footerFont { background-color: orange; font-family: pete, Helvetica, Arial, sans-serif; }
+.imageAragon1 { height: 50%; width: 50%}
+.imageAragon2 { height: 40%; width: 40%}
+.imageAragon3 { height: 90%; width: 90%; }
+.imageAragon4 { height: 36%; width: 36%}
+
+
+.imgrespon {
+    width: 100%;
+    position: relative;
+}
+.imgrespon > div {
+    position: absolute;
+}
+.imgrespon > * .tab {
+    z-index: 2;
+    opacity: 0.8;
+    padding: 8px 60px 10px;
+    margin-top: 10px;
+    margin-left: 2px;
+    background-color: #ffffff;
+    border: solid #ffffff 1px;
+    border-radius: 3px;
+    font-size : 18px;
+    text-align: center;
+    /*position: absolute;
+    left: 36px;*/
+}
+
+.imgrespon > * .tab2 {
+    z-index: 2;
+    opacity: 0.9;
+    padding-top: 210px;
+    margin-top: 10px;
+    margin-left: 2px;
+    font-size : 39px;
+    text-align: center;
+    color: white;
+}
+
+.imgrespon > * .tab3 {
+    z-index: 2;
+    opacity: 0.9;
+    padding-top: 30px;
+    margin-top: 10px;
+    margin-left: 2px;
+    font-size : 30px;
+    text-align: center;
+    color: red;
+}
+
+.imgrespon h2 {
+    font-size : 50px;
+    color: #fff;
+    position: absolute;
+    top: 220px;
+    left: 115px;
+}
+
+
+
+.imgrespon > img {
+    opacity: 0.5;
+}
+
+.imgrespon:hover > img  {
+    opacity: 1;
+}
+
+.imgrespon:hover .tab {
+    visibility: hidden;
+}
+
+.imgrespon:hover .tab2 {
+    visibility: hidden;
+}
+
+.imgrespon:hover .tab3 {
+    visibility: hidden;
+}
+
+.imgrespon:hover h2  {
+    display: none;
+}
+
+
+@media screen and (min-width: 200px) and (max-width: 575px) {
+    .imgrespon > * .tab {
+        z-index: 2;
+        opacity: 0.8;
+        padding: 8px 90px 10px;;
+        margin-top: 10px;
+        margin-left: 2px;
+        background-color: #ffffff;
+        border: solid #ffffff 1px;
+        border-radius: 26px;
+        font-size : 18px;
+        text-align: center;
+        /*position: absolute;
+        left: 38px;*/
+    }
+
+    .imgrespon h2 {
+        font-size : 50px;
+        color: #fff;
+        position: absolute;
+        top: 280px;
+        left: 115px;
+    }
+
+}
+
+
+@media screen and (min-width: 576px) and (max-width: 991px) {
+
+    .imgrespon > * .tab {
+        z-index: 2;
+        opacity: 0.8;
+        padding: 5px 13px 5px;
+        margin-top: 10px;
+        margin-left: 2px;
+        background-color: #ffffff;
+        border: solid #ffffff 1px;
+        border-radius: 26px;
+        font-size : 15px;
+        text-align: center;
+        /*position: absolute;
+        left: 7px;*/
+    }
+
+    .imgrespon h2 {
+        font-size : 30px;
+        color: #fff;
+        position: absolute;
+        top: 130px;
+        left: 37px;
+    }
+
+    .imgrespon > * .tab2 {
+        z-index: 2;
+        opacity: 0.9;
+        padding-top: 100px;
+        margin-top: 10px;
+        margin-left: 2px;
+        font-size : 22px;
+        text-align: center;
+        color: white;
+    }
+
+    .imgrespon > * .tab3 {
+        z-index: 2;
+        opacity: 0.9;
+        padding-top: 20px;
+        margin-top: 10px;
+        margin-left: 2px;
+        font-size : 18px;
+        text-align: center;
+        color: red;
+    }
+
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .imgrespon > * .tab {
+        z-index: 2;
+        opacity: 0.8;
+        padding: 8px 70px 10px;
+        margin-top: 10px;
+        margin-left: 2px;
+        background-color: #ffffff;
+        border: solid #ffffff 1px;
+        border-radius: 26px;
+        font-size : 18px;
+        text-align: center;
+        /*position: absolute;
+        left: 18px;*/
+    }
+
+    .imgrespon h2 {
+        font-size : 50px;
+        color: #fff;
+        position: absolute;
+        top: 220px;
+        left: 85px;
+    }
+
+
+}
