@@ -48,7 +48,7 @@ hr { margin: 0px;}
 .sectionbesthunterh2 { font-size: 17px; padding-left: 22px; margin-left: 15px; color: black}
 .sectionbesthunterh5 { color: orange; font-size: 25px;}
 .sectionbesthunterp1 { color: black}
-.sectionbesthunterp2 { border-radius: 5px; background-color: black; color: orange; width: 120px; margin: 15px; padding: 8px}
+.sectionbesthunterp2 { font-size: 13px; border-radius: 5px; background-color: black; color: orange; width: 120px; margin: 15px; padding: 8px}
 
 .sectionabout { padding:30px; color: white; background-image: url('https://jocelyn-florance.github.io/-html-Integration-finale-Part-2/asset/bg_dark.png'); background-repeat: repeat; font-family: pete, Helvetica, Arial, sans-serif;}
 .sectionabouttitre { background-color: orange}
