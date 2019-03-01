@@ -33,7 +33,7 @@ hr { margin: 0px;}
 .afooter { color: white; font-size: 18px;}
 
 .section1 { background-image: url('https://jocelyn-florance.github.io/-html-Integration-finale-Part-2/asset/bg_light.png'); background-repeat: repeat; font-family: pete, Helvetica, Arial, sans-serif;}
-.section1h2 { font-size: 25px; font-family: pete, Helvetica, Arial, sans-serif; }
+.section1h2 { font-size: 23px; font-family: pete, Helvetica, Arial, sans-serif; }
 .section3 { font-family: pete, Helvetica, Arial, sans-serif; }
 .section1card { background-color: black}
 
@@ -45,7 +45,7 @@ hr { margin: 0px;}
 .section2img { height: 50%; width: 50%; margin-top: 50px; margin-left: 70px;}
 
 .sectionbesthunter { color: white; background-image: url('https://jocelyn-florance.github.io/-html-Integration-finale-Part-2/asset/bg_light.png'); background-repeat: repeat; font-family: pete, Helvetica, Arial, sans-serif;}
-.sectionbesthunterh2 { font-size: 19px; padding-left: 22px; margin-left: 15px; color: black}
+.sectionbesthunterh2 { font-size: 17px; padding-left: 22px; margin-left: 15px; color: black}
 .sectionbesthunterh5 { color: orange; font-size: 25px;}
 .sectionbesthunterp1 { color: black}
 .sectionbesthunterp2 { border-radius: 5px; background-color: black; color: orange; width: 120px; margin: 15px; padding: 8px}
@@ -66,6 +66,7 @@ hr { margin: 0px;}
 
 .sectioncontact { padding:30px; color: white; background-image: url('https://jocelyn-florance.github.io/-html-Integration-finale-Part-2/asset/bg_dark.png'); background-repeat: repeat; font-family: pete, Helvetica, Arial, sans-serif; }
 .sectioncontactimg { height: 90%; width: 90%}
+.sectioncontacth2 { font-size: 18px;}
 
 .sectionfootera a  { color: white; font-size: 14px;}
 
@@ -84,6 +85,11 @@ hr { margin: 0px;}
 .imageAragon3 { height: 90%; width: 90%; }
 .imageAragon4 { height: 36%; width: 36%}
 
+.signe {
+    font-family: tengwar;
+    font-size: 22px;
+    color: #ff5f01;
+}
 
 .imgrespon {
     width: 100%;
