@@ -38,15 +38,15 @@ hr { margin: 0px;}
 .section1card { background-color: black}
 
 .section1small { color: lightyellow}
-.sectionfontsize { font-size: 17px; font-family: pete, Helvetica, Arial, sans-serif;}
-.sectionfontsizeh2 { font-size: 17px; padding: 20px;}
+.sectionfontsize { font-size: 13px; font-family: pete, Helvetica, Arial, sans-serif;}
+.sectionfontsizeh2 { font-size: 15px; padding: 20px;}
 .sectionfontsizep { font-size: 15px; margin-top: 5px; padding: 20px;}
 .sectionbutton { margin-bottom: 10px; color: orange; background-color: white}
 .section2img { height: 50%; width: 50%; margin-top: 50px; margin-left: 70px;}
 
 .sectionbesthunter { color: white; background-image: url('https://jocelyn-florance.github.io/-html-Integration-finale-Part-2/asset/bg_light.png'); background-repeat: repeat; font-family: pete, Helvetica, Arial, sans-serif;}
-.sectionbesthunterh2 { padding: 22px; margin-left: 15px; color: black}
-.sectionbesthunterh5 { color: orange; font-size: 45px;}
+.sectionbesthunterh2 { font-size: 19px; padding-left: 22px; margin-left: 15px; color: black}
+.sectionbesthunterh5 { color: orange; font-size: 25px;}
 .sectionbesthunterp1 { color: black}
 .sectionbesthunterp2 { border-radius: 5px; background-color: black; color: orange; width: 120px; margin: 15px; padding: 8px}
 
@@ -54,12 +54,15 @@ hr { margin: 0px;}
 .sectionabouttitre { background-color: orange}
 .sectionaboutbody { background-color: antiquewhite}
 .sectionaboutp1 { color: black}
-.sectionaboutth { font-size: 30px}
+.sectionaboutptext1 {font-size: 14px;  color: black}
+.sectionabouth3 { font-size: 20px; color: black;}
+.sectionaboutth { font-size: 22px}
 .sectionboutimg { height: 90%; width: 90% }
 
 .sectionjoin { padding:30px; color: white; background-image: url('https://jocelyn-florance.github.io/-html-Integration-finale-Part-2/asset/bg_light.png'); background-repeat: repeat; font-family: pete, Helvetica, Arial, sans-serif;}
 .sectionjoinimg1 { height: 70%; width: 70%}
 .sectionjoinorange { color: orange}
+.sectionjoinp { color: black; font-size: 20px;}
 
 .sectioncontact { padding:30px; color: white; background-image: url('https://jocelyn-florance.github.io/-html-Integration-finale-Part-2/asset/bg_dark.png'); background-repeat: repeat; font-family: pete, Helvetica, Arial, sans-serif; }
 .sectioncontactimg { height: 90%; width: 90%}
@@ -71,7 +74,7 @@ hr { margin: 0px;}
 
 .textdecorationred { text-decoration-color: red }
 .red { color: red}
-.carouselh1 { font-size: 45px; font-family: nancy, Helvetica, Arial, sans-serif; position: absolute; padding-top: 80px; padding-left: 170px; color: white }
+.carouselh1 { font-size: 25px; font-family: nancy, Helvetica, Arial, sans-serif; }
 .carouselImage { height: 250px; width: 100%; }
 .gandalfrespon { height: 100%; width: 100%; }
 .ligne { width: 100%; height: 2px; background-color: orange; border: 6px;}
@@ -162,6 +165,8 @@ hr { margin: 0px;}
 
 
 @media screen and (min-width: 200px) and (max-width: 575px) {
+    .sectionaboutbody { font-size: 10px;}
+    .sectionaboutth { font-size: 12px;}
     .imgrespon > * .tab {
         z-index: 2;
         opacity: 0.8;
@@ -190,6 +195,8 @@ hr { margin: 0px;}
 
 @media screen and (min-width: 576px) and (max-width: 991px) {
 
+    .sectionaboutbody { font-size: 12px;}
+    .sectionaboutth { font-size: 14px;}
     .imgrespon > * .tab {
         z-index: 2;
         opacity: 0.8;
